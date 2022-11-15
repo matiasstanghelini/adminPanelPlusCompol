@@ -1,7 +1,7 @@
 <template>
   <va-dropdown class="language-dropdown" fixed position="bottom" :offset="[13, 0]">
     <template #anchor>
-      <va-icon :name="getFlagIcon(locale, 'large')" />
+      <va-icon :name="getFlagIcon(locale, 'small')" />
     </template>
 
     <va-dropdown-content class="language-dropdown__content pl-4 pr-4 pt-2 pb-2">
@@ -12,7 +12,7 @@
         :class="{ active: option.code === locale }"
         @click="locale = option.code"
       >
-        <va-icon :name="getFlagIcon(option.code, 'small')" />
+        <!-- <va-icon :name="getFlagIcon(option.code, 'small')" /> -->
         <span class="dropdown-item__text">
           {{ t(`language.${option.name}`) }}
         </span>

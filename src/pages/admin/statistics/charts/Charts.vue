@@ -90,7 +90,7 @@
 <style lang="scss">
   .chart-widget {
     .va-card__content {
-      height: 450px;
+      height: 400px;
     }
   }
 </style>

@@ -21,7 +21,7 @@
     }>(),
     {
       width: '16rem',
-      color: 'secondary',
+      color: 'primary',
       animated: true,
       minimized: true,
       minimizedWidth: undefined,
@@ -39,8 +39,8 @@
 
     &-item {
       &__icon {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1rem;
+        height: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;

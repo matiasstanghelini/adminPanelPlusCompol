@@ -18,11 +18,11 @@
         <span class="app-navbar-center__text mr-2">{{ t('navbar.messageUs') }}</span>
         <a
           class="app-navbar-center__mail mr-2"
-          href="mailto:hello@epicmax.co"
+          href="https://github.com/matiasstanghelini"
           target="_blank"
           :style="{ color: colors.primary }"
         >
-          hello@epicmax.co
+          github.com/matiasstanghelini
         </a>
         <va-button
           href="https://github.com/epicmaxco/vuestic-admin"
@@ -83,7 +83,7 @@
     align-items: center;
 
     & > * {
-      margin-right: 1.5rem;
+      margin-right: 0rem;
     }
 
     & > *:last-child {
