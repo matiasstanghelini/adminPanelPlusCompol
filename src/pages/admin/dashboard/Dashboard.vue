@@ -5,7 +5,7 @@
     <dashboard-info-block />
 
     <div class="row row-equal">
-      <div class="flex xs12 lg6">
+      <div class="flex xs14 lg6">
         <dashboard-tabs @submit="addAddressToMap" />
       </div>
 
